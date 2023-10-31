@@ -1,2 +1,3 @@
 class Cuenta:
-    pass
+    def __init__(self):
+        print("Construyendo el objeto...")
