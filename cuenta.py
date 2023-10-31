@@ -1,3 +1,3 @@
 class Cuenta:
     def __init__(self):
-        print("Construyendo el objeto...")
+        print("Construyendo el objeto...{}".format(self))
