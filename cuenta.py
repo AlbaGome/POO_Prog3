@@ -4,4 +4,15 @@ class Cuenta:
         self.numero =numero
         self.titular =titular
         self.saldo=saldo
-        self.limite=limite
+        self.limite=limite 
+        
+    def extracto(self):
+        print('saldo {} del titular {}'.format (self.saldo,self.titular))
+        
+        
+    def depositar (self,valor):
+        self.saldo += valor
+        
+         
+    def retirar (self,valor):
+        self.saldo -= valor
