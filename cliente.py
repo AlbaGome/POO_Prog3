@@ -1,5 +1,5 @@
 class Cliente:
-    def _init_(self, nombre):
+    def __init__(self, nombre):
         self.__nombre = nombre
         
     @property
